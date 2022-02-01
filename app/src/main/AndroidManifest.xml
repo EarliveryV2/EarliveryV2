@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EarliveryV2">
         <activity
+            android:name=".RegionSelectionActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
